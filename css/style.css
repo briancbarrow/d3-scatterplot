@@ -1,0 +1,71 @@
+ body {
+/*   background-image: url('http://media.gettyimages.com/photos/the-pack-rides-at-the-col-du-galibier-on-july-23-during-the-2105-km-picture-id161470117'); */
+   background-color: #FFC8AA;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   font-family: 'Alegreya Sans', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #003B1F;
+  font-size: 40px;
+}
+
+.my-svg {
+/*   fill: #ccc; */
+  margin-top: 10px;
+} 
+
+#viz-wrapper{
+  background: #76B295;
+  text-align: center;
+  margin: auto;
+  width: 650px;
+  border-radius: 20px;
+  opacity: 0.94;
+}
+
+.chart-heading{
+  padding-top: 10px;
+}
+
+.info-box{
+  text-align: center;
+  background: black;
+  margin: 10px;
+  color: white;
+  
+}
+
+.svg-body {
+  background: black;
+  border-radius: 10px;
+   opacity: 0; 
+}
+
+.doping-circle{
+  height: 11px;
+  width: 11px;
+  background-color: red;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  border-color: #551600;
+  border-width: 1.9px;
+  border-style: solid;
+}
+
+.axis path,
+			.axis line {
+				fill: none;
+				stroke: black;
+				shape-rendering: crispEdges;
+			}
+			
+			.axis text {
+				font-family: sans-serif;
+				font-size: 11px;
+			}
